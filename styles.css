@@ -45,7 +45,7 @@ html {
     color: rgb(223, 235, 117);
     text-shadow: 1px 1px rgb(8, 8, 4);
     font-weight: 800;
-    padding: 0 10px;
+    padding: 0 15px 0 0;
     text-decoration: none;
     margin: 0;
 }
@@ -55,7 +55,7 @@ html {
     background-color: rgb(223, 235, 117);
     margin: 0;
     text-align: center;
-    padding: 20px;
+    padding: 20px auto;
 }
 
 #intro h2 {
@@ -64,6 +64,7 @@ html {
     font-size: 28px;
     color: rgb(34, 122, 44);
     text-shadow: 1px 1px rgb(8, 8, 7);
+    padding-top: 20px;
 }
 
 #intro p {
@@ -77,14 +78,14 @@ html {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 10px;
-    justify-content: space-around;
-    padding: 10px;
-    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .intro-img img {
     max-width: 30%;
+    margin: 0 10px 10px;
 }
 
 /*DRINKS CODE*/
@@ -92,6 +93,7 @@ html {
     background-color: rgb(223, 235, 117);
     margin: 0;
     text-align: center;
+    justify-content: center;
 }
 
 #drinks span {
@@ -103,16 +105,16 @@ html {
 }
 
 .drinks-img {
-    margin: 20px 10px;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
+    margin-top: 20px;
+    justify-content: center;
     max-width: 100%;
 }
 
-.drinks {
-    width: 30%;
-    
+.drinks-img img {
+    max-width: 30%;
+    margin: 0 10px 10px;
 }
 
