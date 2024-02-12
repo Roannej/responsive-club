@@ -27,7 +27,7 @@ html {
     font-size: 46px;
     margin: 0;
     letter-spacing: 6px;
-    text-shadow: 2px 2px 2px rgb(146, 122, 44);;
+    text-shadow: 2px 2px 2px rgb(146, 122, 44);
 }
 
 .nav {
@@ -40,32 +40,50 @@ html {
 }
 
 .nav a {
-    color: rgb(146, 122, 44);
+    color: rgb(223, 235, 117);
+    text-shadow: 1px 1px rgb(8, 8, 4);
     font-weight: 800;
     padding: 0 10px;
-    text-shadow: 1px 1px rgb(160, 160, 103);
     text-decoration: none;
     margin: 0;
 }
 
 #intro {
-    background-color: rgb(34, 88, 43);
+    background-color: rgb(223, 235, 117);
     margin: 0;
     border: 2px ;
+    text-align: center;
+    padding: 20px;
 }
 
 #intro h2 {
     margin-top: 0;
+    font-family: "Irish Grover", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: rgb(34, 122, 44);
+    text-shadow: 1px 1px rgb(8, 8, 7);
+}
+
+#intro p {
+    font-family: "Irish Grover", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: rgb(34, 122, 44);
+    text-shadow: 1px 1px rgb(5, 5, 5);
 }
 
 .intro-img {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
 }
 
 .intro-img img {
-    width: 300px;
+    max-width: 30%;
 }
 
 
