@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     margin: 0;
+    padding: 0;
 }
 
 .banner {
@@ -30,6 +36,7 @@ html {
     font-size: 20px;
     text-align: center;
     padding: 5px;
+    margin: 0;
 }
 
 .nav a {
@@ -38,11 +45,17 @@ html {
     padding: 0 10px;
     text-shadow: 1px 1px rgb(160, 160, 103);
     text-decoration: none;
+    margin: 0;
 }
 
 #intro {
     background-color: rgb(34, 88, 43);
     margin: 0;
+    border: 2px ;
+}
+
+#intro h2 {
+    margin-top: 0;
 }
 
 .intro-img {
@@ -54,3 +67,5 @@ html {
 .intro-img img {
     width: 300px;
 }
+
+
