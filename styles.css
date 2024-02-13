@@ -107,6 +107,16 @@ html {
     text-shadow: 0.0625rem 0.0625rem rgb(5, 5, 5);
 }
 
+#intro p::before {
+    content: "\2618";
+    font-size: 1.375rem;
+}
+
+#intro p::after {
+    content: "\2618";
+    font-size: 1.375rem;
+}
+
 .intro-img {
     margin: 0;
     display: flex;
@@ -252,7 +262,7 @@ html {
     width: 33%;
 }
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES - 3rd OF ORIGINAL?-3REM IN PLACE OF 5REM?*/
 @media only screen and (max-width: 425px) {
     .banner {
         padding: 0.9375rem 0;
@@ -275,60 +285,60 @@ html {
 
     .info {
         background-color: rgb(61, 151, 76);
-        font-size: 1rem;
+        font-size: 0.6rem;
         text-align: center;
-        padding: 0.3125rem;
+        padding: 0.1875rem;
         margin: 0;
-        border-top: 0.125rem solid rgb(223, 235, 117);
+        border-top: 0.075rem solid rgb(223, 235, 117);
     }
     
     .info p {
         color: rgb(223, 235, 117);
-        text-shadow: 0.0625rem 0.0625rem rgb(8, 8, 4);
+        text-shadow: 0.0375rem 0.0375rem rgb(8, 8, 4);
         font-weight: 800;
-        padding: 0 0.9375rem 0 0;
+        padding: 0 0.5625rem 0 0;
         text-decoration: none;
         margin: 0;
         display: inline;
     }
     
-    /*NAV CODE*/
     .nav {
         background-color: rgb(34, 88, 43);
         color: rgb(34, 122, 44);
-        font-size: 1.25rem;
+        font-size: 0.75rem;
         text-align: center;
-        padding: 0.3125rem;
+        padding: 0.1875rem;
         margin: 0;
-        border-top: 0.125rem solid rgb(223, 235, 117);
+        border-top: 0.075rem solid rgb(223, 235, 117);
     }
     
     .nav a {
         color: rgb(223, 235, 117);
-        text-shadow: 0.0625rem 0.0625rem rgb(8, 8, 4);
+        text-shadow: 0.0375rem 0.0375rem rgb(8, 8, 4);
         font-weight: 800;
-        padding: 0 0.9375rem 0 0;
+        padding: 0 0.5625rem 0 0;
         text-decoration: none;
         margin: 0;
     }
     
-    /*INTRO CODE*/
     #intro {
         background-color: rgb(223, 235, 117);
         margin: 0;
         text-align: center;
-        padding: 1.25rem auto;
+        padding: 0.75rem auto;
         width: 100%;
     }
-    
+
     #intro h2 {
         margin-top: 0;
         font-family: "Irish Grover", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2.25rem;
+        font-size: 1.35rem;
         color: rgb(34, 122, 44);
-        text-shadow: 0.0625rem 0.0625rem rgb(8, 8, 7);
-        padding-top: 1.25rem;
+        text-shadow: 0.0375rem 0.0375rem rgb(8, 8, 7);
+        padding-top: 0.75rem;
     }
+
+     /* still to do* divide by 10 x 6  */
     
     #intro p {
         font-family: "Irish Grover", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -337,6 +347,16 @@ html {
         text-shadow: 0.0625rem 0.0625rem rgb(5, 5, 5);
     }
     
+    #intro p::before {
+        content: "\2618";
+        font-size: 1.375rem;
+    }
+    
+    #intro p::after {
+        content: "\2618";
+        font-size: 1.375rem;
+    }
+
     .intro-img {
         margin: 0;
         display: flex;
