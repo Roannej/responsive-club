@@ -32,9 +32,8 @@ html {
 }
 /*INFO CODE*/
 .info {
-    background-color: rgb(34, 88, 43);
-    color: rgb(34, 122, 44);
-    font-size: 18px;
+    background-color: rgb(61, 151, 76);
+    font-size: 16px;
     text-align: center;
     padding: 5px;
     margin: 0;
@@ -48,6 +47,7 @@ html {
     padding: 0 15px 0 0;
     text-decoration: none;
     margin: 0;
+    display: inline;
 }
 
 /*NAV CODE*/
@@ -196,4 +196,34 @@ html {
 .game-img img {
     max-width: 30%;
     margin: 0 10px 20px;
+}
+
+/*FOOTER CODE*/
+#footer {
+    background-color: rgb(34, 88, 43);
+    color: rgb(34, 122, 44);
+    font-size: 16px;
+    padding: 5px;
+    margin: 0;
+    border-top: 2px solid rgb(223, 235, 117);
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer {
+    color: rgb(223, 235, 117);
+    text-shadow: 1px 1px rgb(8, 8, 4);
+    font-weight: 800;
+    margin: 0 0 0 10px;
+    font-style: italic;
+}
+
+.span {
+    color: rgb(223, 235, 117);
+    text-shadow: 1px 1px rgb(8, 8, 4);
+    font-weight: 800;
+    margin: 0 10px;
+    text-align: right;
+    font-style: italic;
 }
