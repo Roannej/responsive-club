@@ -76,6 +76,7 @@ html {
     margin: 0;
     text-align: center;
     padding: 20px auto;
+    width: 100%;
 }
 
 #intro h2 {
@@ -114,6 +115,7 @@ html {
     margin: 0;
     text-align: center;
     justify-content: center;
+    width: 100%;
 }
 
 #drinks span {
@@ -144,6 +146,7 @@ html {
     margin: 0;
     text-align: center;
     justify-content: center;
+    width: 100%;
 }
 
 #food span {
@@ -174,6 +177,7 @@ html {
     margin: 0;
     text-align: center;
     justify-content: center;
+    width: 100%;
 }
 
 #features span {
@@ -203,7 +207,6 @@ html {
     background-color: rgb(34, 88, 43);
     color: rgb(34, 122, 44);
     font-size: 16px;
-    padding: 5px;
     margin: 0;
     border-top: 2px solid rgb(223, 235, 117);
     display: inline-flex;
@@ -215,15 +218,24 @@ html {
     color: rgb(223, 235, 117);
     text-shadow: 1px 1px rgb(8, 8, 4);
     font-weight: 800;
-    margin: 0 0 0 10px;
     font-style: italic;
+    padding-left: 10px;
+    width: 33%;
+}
+
+#home a{
+    color: rgb(223, 235, 117);
+    text-shadow: 1px 1px rgb(8, 8, 4);
+    font-weight: 800; 
+    width: 33%;
 }
 
 .span {
     color: rgb(223, 235, 117);
     text-shadow: 1px 1px rgb(8, 8, 4);
     font-weight: 800;
-    margin: 0 10px;
     text-align: right;
     font-style: italic;
+    padding-right: 10px;
+    width: 33%;
 }
